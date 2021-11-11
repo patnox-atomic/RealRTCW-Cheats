@@ -1,0 +1,45 @@
+build/release-mingw32-x86_64/renderer/pcf.o: \
+ code/freetype-2.9/src/pcf/pcf.c code/freetype-2.9/include/ft2build.h \
+ code/freetype-2.9/include/freetype/config/ftheader.h \
+ code/freetype-2.9/include/freetype/internal/internal.h \
+ code/freetype-2.9/src/pcf/pcfdrivr.c \
+ code/freetype-2.9/include/freetype/internal/ftdebug.h \
+ code/freetype-2.9/include/freetype/config/ftconfig.h \
+ code/freetype-2.9/include/freetype/config/ftoption.h \
+ code/freetype-2.9/include/freetype/config/ftstdlib.h \
+ code/freetype-2.9/include/freetype/freetype.h \
+ code/freetype-2.9/include/freetype/fttypes.h \
+ code/freetype-2.9/include/freetype/ftsystem.h \
+ code/freetype-2.9/include/freetype/ftimage.h \
+ code/freetype-2.9/include/freetype/fterrors.h \
+ code/freetype-2.9/include/freetype/ftmoderr.h \
+ code/freetype-2.9/include/freetype/fterrdef.h \
+ code/freetype-2.9/include/freetype/internal/ftstream.h \
+ code/freetype-2.9/include/freetype/internal/ftobjs.h \
+ code/freetype-2.9/include/freetype/ftrender.h \
+ code/freetype-2.9/include/freetype/ftmodapi.h \
+ code/freetype-2.9/include/freetype/ftglyph.h \
+ code/freetype-2.9/include/freetype/ftsizes.h \
+ code/freetype-2.9/include/freetype/ftlcdfil.h \
+ code/freetype-2.9/include/freetype/ftparams.h \
+ code/freetype-2.9/include/freetype/internal/ftmemory.h \
+ code/freetype-2.9/include/freetype/internal/ftgloadr.h \
+ code/freetype-2.9/include/freetype/internal/ftdrv.h \
+ code/freetype-2.9/include/freetype/internal/autohint.h \
+ code/freetype-2.9/include/freetype/internal/ftserv.h \
+ code/freetype-2.9/include/freetype/internal/ftpic.h \
+ code/freetype-2.9/include/freetype/internal/ftcalc.h \
+ code/freetype-2.9/include/freetype/ftincrem.h \
+ code/freetype-2.9/include/freetype/ftgzip.h \
+ code/freetype-2.9/include/freetype/ftlzw.h \
+ code/freetype-2.9/include/freetype/ftbzip2.h \
+ code/freetype-2.9/include/freetype/ftbdf.h \
+ code/freetype-2.9/include/freetype/ttnameid.h \
+ code/freetype-2.9/src/pcf/pcf.h code/freetype-2.9/src/pcf/pcfdrivr.h \
+ code/freetype-2.9/src/pcf/pcfread.h code/freetype-2.9/src/pcf/pcferror.h \
+ code/freetype-2.9/src/pcf/pcfutil.h \
+ code/freetype-2.9/include/freetype/internal/services/svbdf.h \
+ code/freetype-2.9/include/freetype/internal/services/svfntfmt.h \
+ code/freetype-2.9/include/freetype/internal/services/svprop.h \
+ code/freetype-2.9/include/freetype/ftdriver.h \
+ code/freetype-2.9/src/pcf/pcfread.c code/freetype-2.9/src/pcf/pcfutil.c
