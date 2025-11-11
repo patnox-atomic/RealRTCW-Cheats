@@ -601,12 +601,13 @@ void CG_DrawInformation( void ) {
 	}
 
 	// cheats warning
-	s = Info_ValueForKey( sysInfo, "sv_cheats" );
-	if ( s[0] == '1' ) {
-		UI_DrawProportionalString( 320, y, "CHEATS ARE ENABLED",
-								   UI_CENTER | UI_SMALLFONT | UI_DROPSHADOW, colorWhite );
-		y += PROP_HEIGHT;
-	}
+	// PATNOX - ENABLE CHEATS
+	// s = Info_ValueForKey( sysInfo, "sv_cheats" );
+	// if ( s[0] == '1' ) {
+	// 	UI_DrawProportionalString( 320, y, "CHEATS ARE ENABLED",
+	// 							   UI_CENTER | UI_SMALLFONT | UI_DROPSHADOW, colorWhite );
+	// 	y += PROP_HEIGHT;
+	// }
 
 	// game type
 	switch ( cgs.gametype ) {

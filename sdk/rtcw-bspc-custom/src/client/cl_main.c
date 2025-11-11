@@ -761,11 +761,12 @@ void CL_Disconnect( qboolean showMainMenu ) {
 
 	cls.state = CA_DISCONNECTED;
 
+	// PATNOX - ENABLE CHEATS
 	// allow cheats locally
-#ifndef WOLF_SP_DEMO
+////#ifndef WOLF_SP_DEMO
 	// except for demo
 	Cvar_Set( "sv_cheats", "1" );
-#endif
+////#endif
 
 	// not connected to a pure server anymore
 	cl_connectedToPureServer = qfalse;

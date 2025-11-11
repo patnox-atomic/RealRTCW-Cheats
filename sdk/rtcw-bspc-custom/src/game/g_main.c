@@ -141,8 +141,9 @@ vmCvar_t g_soldierChargeTime;
 vmCvar_t g_playerStart;         // set when the player enters the game
 
 cvarTable_t gameCvarTable[] = {
-	// don't override the cheat state set by the system
-	{ &g_cheats, "sv_cheats", "", 0, qfalse },
+	// PATNOX - ENABLE CHEATS
+	//// { &g_cheats, "sv_cheats", "", 0, qfalse },
+	{ &g_cheats, "sv_cheats", "1", CVAR_CHEAT, 0, qfalse },
 
 	// noset vars
 	{ NULL, "gamename", GAMEVERSION, CVAR_SERVERINFO | CVAR_ROM, 0, qfalse  },
